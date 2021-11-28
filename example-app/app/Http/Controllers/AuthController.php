@@ -17,4 +17,12 @@ class AuthController extends Controller
         
         return view('welcome');
     }
+    
+    public function halo(){
+    	return view ('halo');
+    }
+
+    public function lisa(){
+    	return view ('coba');
+    }
 }
