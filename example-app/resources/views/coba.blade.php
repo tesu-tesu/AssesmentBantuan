@@ -1,7 +1,7 @@
 @extends('layout.template')
-@section('title', 'Dashboard')
+@section('title', 'Dashboardssss')
 
-@section('content-title', 'Dashboard')
+@section('content-title', 'Pus jancok')
 
 @section('content')
     HALO MBOD
