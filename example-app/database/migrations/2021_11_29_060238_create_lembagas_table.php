@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreatePengajuanTable extends Migration
+class CreateLembagasTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,9 @@ class CreatePengajuanTable extends Migration
      */
     public function up()
     {
-        Schema::create('pengajuan', function (Blueprint $table) {
+        Schema::create('lembagas', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
             $table->timestamps();
         });
     }
@@ -26,6 +27,6 @@ class CreatePengajuanTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('pengajuan');
+        Schema::dropIfExists('lembagas');
     }
 }
