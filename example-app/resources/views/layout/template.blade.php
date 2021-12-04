@@ -64,7 +64,9 @@
 
     <!-- Main content -->
     <section class="content">
+      <div class="container">
         @yield('content')
+      </div>
     </section>
     <!-- /.content -->
   </div>
@@ -127,6 +129,21 @@
 <script src="{{ asset('') }}assets/template/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
 <script src="{{ asset('') }}assets/template/plugins/datatables-buttons/js/buttons.print.min.js"></script>
 <script src="{{ asset('') }}assets/template/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+
+<script>
+  $(function() {
+      $('#example2').DataTable({
+          "paging": true,
+          "lengthChange": false,
+          "searching": true,
+          "ordering": true,
+          "info": true,
+          "pageLength": 20,
+          "autoWidth": false,
+          "responsive": true,
+      });
+  });
+</script>
 @yield('javascript')
 </body>
 </html>

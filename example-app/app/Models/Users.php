@@ -5,8 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Lembaga extends Model
+class Users extends Model
 {
     use HasFactory;
-    protected $table = 'lembagas';
+
+    protected $table = 'users';
+    
 }

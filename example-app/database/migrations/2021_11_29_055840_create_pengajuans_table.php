@@ -18,7 +18,7 @@ class CreatePengajuansTable extends Migration
             $table->tinyInteger('id_user');
             $table->tinyInteger('id_lembaga');
             $table->string('program_bantuan');
-            $table->enum('status', ['Verifikasi', 'Survey', 'Tidak Dibantu', 'Dibantu', 'Rekomendasi']);
+            $table->tinyInteger('status');
             $table->timestamps();
         });
     }
