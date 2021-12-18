@@ -8,7 +8,7 @@
 
     <div class="row">
         <div class="col-md-2 m-3">
-            <a href="{{ route('add_admin_page') }}" class="btn btn-success">+ Tambah User</a>
+            <a href="{{ route('add_admin_page') }}" class="btn btn-success">+ Tambah Admin</a>
         </div>
     </div>
 
