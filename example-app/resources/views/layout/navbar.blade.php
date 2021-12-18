@@ -44,7 +44,7 @@
           <i class="far fa-user"></i>
         </a>
         <div class="dropdown-menu dropdown-menu-right">
-          <a href="#" class="dropdown-item">
+          <a href="{{ route('login') }}" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
               <i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;

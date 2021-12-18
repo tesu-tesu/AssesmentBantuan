@@ -7,7 +7,7 @@
 
     <div class="row">
         <div class="col-md-2 m-3">
-            <a href="{{ route('add_lembaga_page') }}" class="btn btn-success">+ Tambah User</a>
+            <a href="{{ route('add_lembaga_page') }}" class="btn btn-success">+ Tambah Lembaga</a>
         </div>
     </div>
 
