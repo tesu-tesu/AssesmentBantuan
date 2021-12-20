@@ -19,20 +19,20 @@
                         <div class="card-body">
                             <div class="form-group">
                                 <label>Nama Admin</label>
-                                <input name="name" type="text" class="form-control" placeholder="Masukkan Nama">
+                                <input name="name" type="text" required class="form-control" placeholder="Masukkan Nama">
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Email</label>
-                                        <input name="email" type="email" class="form-control"
+                                        <input name="email" type="email" required class="form-control"
                                             placeholder="Masukkan Email">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Password</label>
-                                        <input name="password" type="password" class="form-control"
+                                        <input name="password" type="password" required class="form-control"
                                             placeholder="Masukkan Password">
                                     </div>
                                 </div>
@@ -41,7 +41,7 @@
                                 <label>Lembaga</label>
                                 <select name="lembaga" class="custom-select rounded-0" id="exampleSelectRounded0">
                                     @foreach ($lembaga as $data)
-                                        <option value="{{ $data->id }}">{{ $data->name }}</option>
+                                        <option value="{{ $data->id }}" {{ $loop->first ? 'selected="selected"' : '' }}>{{ $data->name }}</option>
                                     @endforeach
                                 </select>
                             </div>
@@ -49,20 +49,20 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>NIK</label>
-                                        <input name="nik" type="text" class="form-control" placeholder="Masukkan NIK">
+                                        <input name="nik" type="text" required class="form-control" placeholder="Masukkan NIK">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Nomer Telepon</label>
-                                        <input name="no_telp" type="text" class="form-control"
+                                        <input name="no_telp" type="text" required class="form-control"
                                             placeholder="Masukkan Nomer Telepon">
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label>Alamat</label>
-                                <textarea class="form-control" rows="3" name="alamat"
+                                <textarea class="form-control" required rows="3"  name="alamat"
                                     placeholder="Masukkan Alamat"> </textarea>
                             </div>
                             <!-- /.card-body -->

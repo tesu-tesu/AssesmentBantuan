@@ -21,7 +21,7 @@
                     <div class="card-body">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Nama Lembaga</label>
-                            <input name="nama_lembaga" type="text" class="form-control" placeholder="Masukkan Nama Lembaga" value="{{ $lembaga->name }}">
+                            <input name="nama_lembaga" required type="text" class="form-control" placeholder="Masukkan Nama Lembaga" value="{{ $lembaga->name }}">
                         </div>
                     <!-- /.card-body -->
 

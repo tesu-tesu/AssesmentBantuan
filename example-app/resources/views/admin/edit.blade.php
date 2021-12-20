@@ -18,25 +18,25 @@
                         <div class="card-body">
                             <div class="form-group">
                                 <label>Nama Admin</label>
-                                <input name="name" type="text" class="form-control" placeholder="Masukkan Nama" value="{{ $user->name }}" >
+                                <input name="name" required type="text" class="form-control" placeholder="Masukkan Nama" value="{{ $user->name }}" >
                             </div>
                             <div class="form-group">
                                 <label>Email</label>
-                                <input name="email" type="email" class="form-control"
+                                <input name="email" required type="email" class="form-control"
                                     placeholder="Masukkan Email" value="{{ $admin->email }}">
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Password</label>
-                                        <input name="password" type="password" class="form-control"
+                                        <input name="password" required type="password" class="form-control"
                                             placeholder="Masukkan Password">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Konfirmasi Password</label>
-                                        <input name="password-confirmation" type="password" class="form-control"
+                                        <input name="password-confirmation" required type="password" class="form-control"
                                             placeholder="Masukkan Password">
                                     </div>
                                 </div>
@@ -57,13 +57,13 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>NIK</label>
-                                        <input name="nik" type="text" class="form-control" placeholder="Masukkan NIK" value="{{ $user->nik }}">
+                                        <input name="nik" required type="text" class="form-control" placeholder="Masukkan NIK" value="{{ $user->nik }}">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Nomer Telepon</label>
-                                        <input name="no_telp" type="text" class="form-control"
+                                        <input name="no_telp" required type="text" class="form-control"
                                             placeholder="Masukkan Nomer Telepon" value="{{ $user->no_telp }}">
                                     </div>
                                 </div>

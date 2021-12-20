@@ -63,19 +63,19 @@
                         <div class="card-body">
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Nama</label>
-                                <input name="name" type="text" class="form-control" placeholder="Masukkan Nama">
+                                <input name="name" required type="text" class="form-control" placeholder="Masukkan Nama">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">NIK</label>
-                                <input name="nik" type="number" class="form-control" placeholder="Masukkan NIK">
+                                <input name="nik" type="number" required class="form-control" placeholder="Masukkan NIK">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Alamat</label>
-                                <input name="alamat" type="text" class="form-control" placeholder="Masukkan Alamat">
+                                <input name="alamat" type="text" required class="form-control" placeholder="Masukkan Alamat">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">No Telepon</label>
-                                <input name="no_telp" type="text" class="form-control" placeholder="Masukkan No Telepon">
+                                <input name="no_telp" type="text" required class="form-control" placeholder="Masukkan No Telepon">
                             </div>
                             <!-- /.card-body -->
                             <div class="">

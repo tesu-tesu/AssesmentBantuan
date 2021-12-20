@@ -21,19 +21,19 @@
                     <div class="card-body">
                         <div class="form-group">
                             <label>Nama Pengaju</label>
-                            <input name="name" type="text" class="form-control" placeholder="Masukkan Nama Lembaga" value="{{ $user->name }}">
+                            <input name="name" required type="text" class="form-control" placeholder="Masukkan Nama Lembaga" value="{{ $user->name }}">
                         </div>
                         <div class="form-group">
                             <label>NIK</label>
-                            <input name="nik" type="text" class="form-control" placeholder="Masukkan NIK" value="{{ $user->nik }}">
+                            <input name="nik" required type="text" class="form-control" placeholder="Masukkan NIK" value="{{ $user->nik }}">
                         </div>
                         <div class="form-group">
                             <label>Alamat</label>
-                            <input name="alamat" type="text" class="form-control" placeholder="Masukkan Alamat" value="{{ $user->alamat }}">
+                            <input name="alamat" required type="text" class="form-control" placeholder="Masukkan Alamat" value="{{ $user->alamat }}">
                         </div>
                         <div class="form-group">
                             <label>Nomer Telepon</label>
-                            <input name="no_telp" type="text" class="form-control" placeholder="Masukkan Nomer Telepon" value="{{ $user->no_telp }}">
+                            <input name="no_telp" required type="text" class="form-control" placeholder="Masukkan Nomer Telepon" value="{{ $user->no_telp }}">
                         </div>
                     <!-- /.card-body -->
 

@@ -22,7 +22,7 @@ class PengajuanController extends Controller
     
     public function add_page()
     {
-        $user = Users::get();
+        $user = Users::where('status', 1)->get();
         return view('pengajuan.add', compact('user'));
     }
 
