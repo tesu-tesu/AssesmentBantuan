@@ -20,7 +20,7 @@
                         <div class="card-body">
                             <div class="form-group">
                                 <label>Nama Lembaga</label>
-                                <input name="name" type="text" class="form-control" placeholder="Masukkan Nama Lembaga">
+                                <input name="name" type="text" required class="form-control" placeholder="Masukkan Nama Lembaga">
                             </div>
                         <!-- /.card-body -->
 

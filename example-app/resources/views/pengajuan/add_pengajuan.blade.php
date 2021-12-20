@@ -18,7 +18,7 @@
                         <div class="card-body">
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Program Bantuan</label>
-                                <input name="program_bantuan" type="text" class="form-control" placeholder="Masukkan Nama">
+                                <input name="program_bantuan" type="text"  required class="form-control" placeholder="Masukkan Nama">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Status</label>
@@ -34,7 +34,7 @@
                                 <label>Lembaga</label>
                                 <select name="lembaga" class="custom-select rounded-0" id="exampleSelectRounded0">
                                     @foreach ($lembaga as $data)
-                                        <option value="{{ $data->id }}">{{ $data->name }}</option>
+                                        <option value="{{ $data->id }}" {{ $loop->first ? 'selected="selected"' : '' }}>{{ $data->name }}</option>
                                     @endforeach
                                 </select>
                             </div>

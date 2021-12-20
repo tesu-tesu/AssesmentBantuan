@@ -18,7 +18,7 @@
                         <div class="card-body">
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Program Bantuan</label>
-                                <input name="program_bantuan" type="text" class="form-control" placeholder="Masukkan Nama" value="{{ $pengajuan->program_bantuan }}">
+                                <input name="program_bantuan" required type="text" class="form-control" placeholder="Masukkan Nama" value="{{ $pengajuan->program_bantuan }}">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Status</label>
